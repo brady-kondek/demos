@@ -1,11 +1,9 @@
 #!/bin/bash -e
 
-# install thumbsup
-# unless it's already installed or symlinked
 if [ ! -e "node_modules/thumbsup" ]; then
-  npm install thumbsup
+  echo "Please install thumbsup first" && exit 1
 fi
 
 # generate all samples galleries
 # with different themes and settings
-thumbsup --config source/default-folders.json
+./node_modules/.bin/thumbsup --config source/default-folders.json
