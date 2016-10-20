@@ -1,0 +1,12 @@
+{
+  "input": "source/media",
+  "output": "target",
+  "title": "Photo album",
+  "thumb-size": 120,
+  "large-size": 400,
+  "original-photos": false,
+  "original-videos": false,
+  "sort-folders": "date",
+  "css": "source/custom.less",
+  "google-analytics": null
+}

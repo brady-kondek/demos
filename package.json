@@ -1,0 +1,19 @@
+{
+  "name": "thumbsup-demos",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "Demo galleries to showcase common themes and options",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thumbsup/demos.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thumbsup/demos/issues"
+  },
+  "homepage": "https://github.com/thumbsup/demos#readme"
+}
