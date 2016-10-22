@@ -1,6 +1,6 @@
 {
   "input": "source/media",
-  "output": "target",
+  "output": "docs",
   "title": "Photo album",
   "thumb-size": 120,
   "large-size": 400,

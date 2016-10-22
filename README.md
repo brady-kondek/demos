@@ -21,4 +21,5 @@ If working on local `thumbsup` changes, you can also link your local executable:
 ./build
 ```
 
-You can then commit the changes in the `./target` submodule.
+The generated website is available in `./docs`, where Github Pages is served from.
+Make sure you commit the entire repo, including `./docs`.
