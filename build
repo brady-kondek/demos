@@ -1,9 +1,0 @@
-#!/bin/bash -e
-
-if [ ! -e "node_modules/thumbsup" ]; then
-  echo "Please install thumbsup first" && exit 1
-fi
-
-# generate all samples galleries
-# with different themes and settings
-./node_modules/.bin/thumbsup --config source/default-folders.json

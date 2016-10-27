@@ -1,0 +1,31 @@
+#!/bin/bash -e
+
+if [ ! -e "node_modules/thumbsup" ]; then
+  echo "Please install thumbsup first" && exit 1
+fi
+
+function make_gallery {
+  theme=$1
+  echo "Building theme: ${theme}"
+  echo ""
+  # remove albums and mosaics
+  find docs -depth 1 \( -name *.html -or -name *.png \) -exec rm {} \;
+  # rebuild using chosen theme
+  ./node_modules/.bin/thumbsup --config config/${theme}.json
+  # move albums into the themes folder
+  rm -rf docs/themes/${theme}
+  mkdir -p docs/themes/${theme}
+  mv docs/public docs/themes/${theme}/
+  find docs -depth 1 \( -name *.html -or -name *.png \) -exec mv {} docs/themes/${theme}/ \;
+  # create symlinks
+  pushd docs/themes/${theme} > /dev/null
+  ln -sf ../../media media
+  popd > /dev/null
+}
+
+# generate all samples galleries
+# with different themes and settings
+
+make_gallery 'classic'
+make_gallery 'cards'
+make_gallery 'mosaic'

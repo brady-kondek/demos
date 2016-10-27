@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo album - Home</title>
+      <link rel="stylesheet" href="public/reset.css" />
+      <link rel="stylesheet" href="public/style.css" />
+      <link rel="stylesheet" href="public/viewer.css" />
+      <link rel="stylesheet" href="public/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="public/light-gallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/video-js.css" />
+  </head>
+
+  <body>
+
+    <!-- <div id="wrapper">
+    <div id="container"> -->
+    
+      <!--
+        Sidebar with album hierarchy
+      -->
+    
+      <div id="content">
+    
+        <!--
+          Gallery title
+        -->
+        <header style="color: #17baef;">
+          <h1>
+            <!-- <label for="hamburger" class="hamburger-label noselect" role="button">
+              <i class="fa fa-navicon"></i>
+            </label> -->
+            Photo album
+          </h1>
+        </header>
+    
+        <!--
+          Breadcrumbs of parent albums
+        -->
+    
+        <nav class="breadcrumbs">
+          <div class="mask"></div>
+    <a class="breadcrumb-item" href="index.html">Home</a>
+        </nav>
+    
+        <!--
+          Main gallery panel
+        -->
+        <section id="content">
+    
+          <!--
+            Nested albums, if any
+          -->
+          <ul id="albums">
+    <li>
+              <a href="index-2010.html">
+                <h3>2010</h3>
+                <div class="meta">
+                  <time>03 Apr 2010 - 29 Jul 2010</time>,
+                  <span class="summary">2 albums, 17 photos</span>
+                </div>
+                <!-- <div class="mosaic" style="opacity: 0.8">
+                  <img src="index-2010.png" />
+                </div> -->
+                <ul class="grid clearfix"><li><img src="media/thumbs/2010/2010-04-02 14.24.53.jpg" /></li><li><img src="media/thumbs/2010/2010-04-06 17.40.13.jpg" /></li><li><img src="media/thumbs/2010/2010-04-14 17.15.50.jpg" /></li><li><img src="media/thumbs/2010/2010-04-15 09.12.47.jpg" /></li><li><img src="media/thumbs/2010/2010-04-19 11.56.37.jpg" /></li><li><img src="media/thumbs/2010/2010-04-23 14.18.38.jpg" /></li><li><img src="media/thumbs/2010/2010-04-27 21.49.35.jpg" /></li><li><img src="media/thumbs/2010/2010-04-30 08.46.31.jpg" /></li>            </ul>
+              </a>
+            </li><li>
+              <a href="index-2011.html">
+                <h3>2011</h3>
+                <div class="meta">
+                  <time>06 May 2011 - 30 Nov 2011</time>,
+                  <span class="summary">2 albums, 17 photos</span>
+                </div>
+                <!-- <div class="mosaic" style="opacity: 0.8">
+                  <img src="index-2011.png" />
+                </div> -->
+                <ul class="grid clearfix"><li><img src="media/thumbs/2011/2011-05-06 10.40.18.jpg" /></li><li><img src="media/thumbs/2011/2011-05-09 16.55.29.jpg" /></li><li><img src="media/thumbs/2011/2011-05-14 09.38.11.jpg" /></li><li><img src="media/thumbs/2011/2011-05-16 09.30.06.jpg" /></li><li><img src="media/thumbs/2011/2011-05-18 13.14.48.jpg" /></li><li><img src="media/thumbs/2011/2011-05-22 17.04.08.jpg" /></li><li><img src="media/thumbs/2011/2011-05-25 13.47.33.jpg" /></li><li><img src="media/thumbs/2011/2011-05-28 11.09.49.jpg" /></li>            </ul>
+              </a>
+            </li>      </ul>
+    
+          <!--
+            All photos and videos
+          -->
+          <ul id="media">
+          </ul>
+    
+        </section>
+    
+      </div>
+    
+    <!-- </div>
+    </div> -->
+
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/video.js"></script>
+    <!-- LightGallery -->
+    <script src="public/light-gallery/js/lightgallery.js"></script>
+    <script src="public/light-gallery/js/lg-autoplay.js"></script>
+    <script src="public/light-gallery/js/lg-pager.js"></script>
+    <script src="public/light-gallery/js/lg-thumbnail.js"></script>
+    <script src="public/light-gallery/js/lg-video.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+
+    </script>
+
+
+  </body>
+
+</html>

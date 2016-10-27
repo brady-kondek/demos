@@ -1,198 +1,274 @@
 {
-  "captions/sunset.jpg": {
-    "fileDate": 1477096385000,
+  "2010/2010-04-02 14.24.53.jpg": {
+    "fileDate": 1477564526000,
     "mediaType": "photo",
     "exif": {
-      "date": null,
-      "orientation": 1,
-      "caption": "Beach"
-    }
-  },
-  "captions/tree.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 1,
-      "caption": "Autum"
-    }
-  },
-  "captions/water.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 1,
-      "caption": "Sea"
-    }
-  },
-  "photos/port-douglas1.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": 1383083620000,
-      "orientation": 1
-    }
-  },
-  "photos/port-douglas2.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": 1383140156000,
-      "orientation": 1
-    }
-  },
-  "photos/port-stephens.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": 1345911757000,
-      "orientation": 1
-    }
-  },
-  "rotations/landscape/Landscape_1.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 1
-    }
-  },
-  "rotations/landscape/Landscape_2.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 2
-    }
-  },
-  "rotations/landscape/Landscape_3.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 3
-    }
-  },
-  "rotations/landscape/Landscape_4.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 4
-    }
-  },
-  "rotations/landscape/Landscape_5.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 5
-    }
-  },
-  "rotations/landscape/Landscape_6.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 6
-    }
-  },
-  "rotations/landscape/Landscape_7.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 7
-    }
-  },
-  "rotations/landscape/Landscape_8.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 8
-    }
-  },
-  "rotations/portrait/Portrait_1.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 1
-    }
-  },
-  "rotations/portrait/Portrait_2.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 2
-    }
-  },
-  "rotations/portrait/Portrait_3.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 3
-    }
-  },
-  "rotations/portrait/Portrait_4.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 4
-    }
-  },
-  "rotations/portrait/Portrait_5.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 5
-    }
-  },
-  "rotations/portrait/Portrait_6.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 6
-    }
-  },
-  "rotations/portrait/Portrait_7.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 7
-    }
-  },
-  "rotations/portrait/Portrait_8.jpg": {
-    "fileDate": 1477096385000,
-    "mediaType": "photo",
-    "exif": {
-      "date": null,
-      "orientation": 8
-    }
-  },
-  "videos/countdown.mp4": {
-    "fileDate": 1477096385000,
-    "mediaType": "video",
-    "exif": {
-      "date": 1397780697000,
+      "date": 1270218293000,
       "orientation": null
     }
   },
-  "videos/momentum.m2ts": {
-    "fileDate": 1477096385000,
-    "mediaType": "video",
+  "2010/2010-04-06 17.40.13.jpg": {
+    "fileDate": 1477564515000,
+    "mediaType": "photo",
     "exif": {
-      "date": null,
-      "orientation": null,
-      "caption": null
+      "date": 1270575613000,
+      "orientation": null
+    }
+  },
+  "2010/2010-04-14 17.15.50.jpg": {
+    "fileDate": 1477565018000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1271265350000,
+      "orientation": null
+    }
+  },
+  "2010/2010-04-15 09.12.47.jpg": {
+    "fileDate": 1477564515000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1271322767000,
+      "orientation": null
+    }
+  },
+  "2010/2010-04-19 11.56.37.jpg": {
+    "fileDate": 1477564934000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1271678197000,
+      "orientation": null
+    }
+  },
+  "2010/2010-04-23 14.18.38.jpg": {
+    "fileDate": 1477564516000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1272032318000,
+      "orientation": null
+    }
+  },
+  "2010/2010-04-27 21.49.35.jpg": {
+    "fileDate": 1477564516000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1272404975000,
+      "orientation": null
+    }
+  },
+  "2010/2010-04-30 08.46.31.jpg": {
+    "fileDate": 1477564516000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1272617191000,
+      "orientation": null
+    }
+  },
+  "2010/2010-07-04 10.12.50.jpg": {
+    "fileDate": 1477564517000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1278238370000,
+      "orientation": null
+    }
+  },
+  "2010/2010-07-05 13.17.39.jpg": {
+    "fileDate": 1477564517000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1278335859000,
+      "orientation": null
+    }
+  },
+  "2010/2010-07-14 15.44.09.jpg": {
+    "fileDate": 1477564517000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1279122249000,
+      "orientation": null
+    }
+  },
+  "2010/2010-07-15 10.33.01.jpg": {
+    "fileDate": 1477564517000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1279189981000,
+      "orientation": null
+    }
+  },
+  "2010/2010-07-19 12.50.18.jpg": {
+    "fileDate": 1477564518000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1279543818000,
+      "orientation": null
+    }
+  },
+  "2010/2010-07-20 14.37.02.jpg": {
+    "fileDate": 1477564518000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1279636622000,
+      "orientation": null
+    }
+  },
+  "2010/2010-07-23 11.20.54.jpg": {
+    "fileDate": 1477564518000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1279884054000,
+      "orientation": null
+    }
+  },
+  "2010/2010-07-24 20.14.05.jpg": {
+    "fileDate": 1477564518000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1280002445000,
+      "orientation": null
+    }
+  },
+  "2010/2010-07-28 22.18.17.jpg": {
+    "fileDate": 1477564519000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1280355497000,
+      "orientation": null
+    }
+  },
+  "2011/2011-05-06 10.40.18.jpg": {
+    "fileDate": 1477564519000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1304678418000,
+      "orientation": null
+    }
+  },
+  "2011/2011-05-09 16.55.29.jpg": {
+    "fileDate": 1477564520000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1304960129000,
+      "orientation": null
+    }
+  },
+  "2011/2011-05-14 09.38.11.jpg": {
+    "fileDate": 1477564520000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1305365891000,
+      "orientation": null
+    }
+  },
+  "2011/2011-05-16 09.30.06.jpg": {
+    "fileDate": 1477564520000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1305538206000,
+      "orientation": null
+    }
+  },
+  "2011/2011-05-18 13.14.48.jpg": {
+    "fileDate": 1477564520000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1305724488000,
+      "orientation": null
+    }
+  },
+  "2011/2011-05-22 17.04.08.jpg": {
+    "fileDate": 1477564521000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1306083848000,
+      "orientation": null
+    }
+  },
+  "2011/2011-05-25 13.47.33.jpg": {
+    "fileDate": 1477564521000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1306331253000,
+      "orientation": null
+    }
+  },
+  "2011/2011-05-28 11.09.49.jpg": {
+    "fileDate": 1477564521000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1306580989000,
+      "orientation": null
+    }
+  },
+  "2011/2011-05-31 10.04.53.jpg": {
+    "fileDate": 1477564521000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1306836293000,
+      "orientation": null
+    }
+  },
+  "2011/2011-11-01 15.00.21.jpg": {
+    "fileDate": 1477564521000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1320159621000,
+      "orientation": null
+    }
+  },
+  "2011/2011-11-10 10.27.03.jpg": {
+    "fileDate": 1477564522000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1320920823000,
+      "orientation": null
+    }
+  },
+  "2011/2011-11-14 14.12.40.jpg": {
+    "fileDate": 1477564522000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1321279960000,
+      "orientation": null
+    }
+  },
+  "2011/2011-11-17 12.10.37.jpg": {
+    "fileDate": 1477564522000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1321531837000,
+      "orientation": null
+    }
+  },
+  "2011/2011-11-18 16.29.15.jpg": {
+    "fileDate": 1477564523000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1321633755000,
+      "orientation": null
+    }
+  },
+  "2011/2011-11-23 11.18.39.jpg": {
+    "fileDate": 1477564523000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1322047119000,
+      "orientation": null
+    }
+  },
+  "2011/2011-11-24 19.40.47.jpg": {
+    "fileDate": 1477564523000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1322163647000,
+      "orientation": null
+    }
+  },
+  "2011/2011-11-29 20.14.58.jpg": {
+    "fileDate": 1477564523000,
+    "mediaType": "photo",
+    "exif": {
+      "date": 1322597698000,
+      "orientation": null
     }
   }
 }

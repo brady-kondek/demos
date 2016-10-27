@@ -1,0 +1,16 @@
+{
+  "input": "source",
+  "output": "docs",
+  "title": "Photo album",
+  "thumb-size": 120,
+  "large-size": 400,
+  "original-photos": false,
+  "original-videos": false,
+  "sort-albums": "date",
+  "sort-media": "date",
+  "albums-from": "date",
+  "albums-date-format": "YYYY/YYYY MMMM",
+  "theme": "cards",
+  "css": null,
+  "google-analytics": null
+}
