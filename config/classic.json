@@ -6,10 +6,10 @@
   "large-size": 400,
   "original-photos": false,
   "original-videos": false,
-  "sort-albums": "date",
-  "sort-media": "date",
-  "albums-from": "folders",
+  "sort-albums-by": "start-date",
+  "sort-media-by": "date",
+  "albums-from": "date",
+  "albums-date-format": "YYYY/YYYY MMMM",
   "theme": "classic",
-  "css": null,
-  "google-analytics": null
+  "footer": "All images courtesy of their author and <a href=\"https://unsplash.com\">unsplash.com</a>, an amazing collection of FREE high-res photos."
 }

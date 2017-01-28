@@ -11,6 +11,6 @@
     "url": "git+https://github.com/thumbsup/demos.git"
   },
   "dependencies": {
-    "thumbsup": "^1.1.2"
+    "thumbsup": "^2.0.0-alpha.1"
   }
 }

@@ -12,7 +12,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: lighter;
-  margin: 0 1em;
+  margin: 0 1em 1em 1em;
   padding: 0 1em;
   -webkit-font-smoothing: antialiased;
 }
@@ -64,6 +64,15 @@ nav li.active a {
 nav li:not(.active):hover {
   background-color: #eee;
 }
+footer {
+  color: #33609c;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 2em;
+}
+footer a {
+  color: #000;
+}
 #galleries a {
   display: inline-block;
 }
@@ -95,8 +104,8 @@ nav li:not(.active):hover {
   margin-bottom: 3em;
 }
 #media li {
-  float: left;
-  margin-right: 0.4em;
+  display: inline-block;
+  margin-right: 0.2em;
   margin-bottom: 0.2em;
   position: relative;
 }

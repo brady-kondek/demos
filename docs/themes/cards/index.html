@@ -15,146 +15,53 @@
 
   <body>
 
-    <div id="wrapper">
+    
+    <div id="container">
     
       <!--
         Gallery title
       -->
       <header>
-        <h1>
-          <label for="hamburger" class="hamburger-label noselect" role="button">
-            <i class="fa fa-navicon"></i>
-          </label>
-          Photo album
-        </h1>
+        <h1><a href="index.html">Photo album</a></h1>
       </header>
     
-      <div id="container">
-    
-        <!--
-          Sidebar with album hierarchy
-        -->
-        <!-- <input id="hamburger" class="hamburger-checkbox" type="checkbox" />
-        <nav id="sidebar">
-          <ul>
-            <li>
-              <!-- This album -->
-              <a href="index.html">
-                  <i class="fa fa-folder-o"></i>
-                Home<span class="count">34</span>
-              </a>
-              <!-- And nested album -->
-              <ul>
-                  <li>
-                    <!-- This album -->
-                    <a href="index-2010.html">
-                        <i class="fa fa-folder-o"></i>
-                      2010<span class="count">17</span>
-                    </a>
-                    <!-- And nested album -->
-                    <ul>
-                        <li>
-                          <!-- This album -->
-                          <a href="index-2010-2010April.html">
-                              <i class="fa fa-photo"></i>
-                            2010 April<span class="count">8</span>
-                          </a>
-                          <!-- And nested album -->
-                          <ul>
-                          </ul>
-                        </li>
-                        <li>
-                          <!-- This album -->
-                          <a href="index-2010-2010July.html">
-                              <i class="fa fa-photo"></i>
-                            2010 July<span class="count">9</span>
-                          </a>
-                          <!-- And nested album -->
-                          <ul>
-                          </ul>
-                        </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <!-- This album -->
-                    <a href="index-2011.html">
-                        <i class="fa fa-folder-o"></i>
-                      2011<span class="count">17</span>
-                    </a>
-                    <!-- And nested album -->
-                    <ul>
-                        <li>
-                          <!-- This album -->
-                          <a href="index-2011-2011May.html">
-                              <i class="fa fa-photo"></i>
-                            2011 May<span class="count">9</span>
-                          </a>
-                          <!-- And nested album -->
-                          <ul>
-                          </ul>
-                        </li>
-                        <li>
-                          <!-- This album -->
-                          <a href="index-2011-2011November.html">
-                              <i class="fa fa-photo"></i>
-                            2011 November<span class="count">8</span>
-                          </a>
-                          <!-- And nested album -->
-                          <ul>
-                          </ul>
-                        </li>
-                    </ul>
-                  </li>
-              </ul>
-            </li>
-          </ul>
-        </nav> -->
-    
-        <!--
-          Main gallery panel
-        -->
-        <section id="content">
-    
-          <!--
-            Breadcrumbs of parent albums
-          -->
-          <nav class="breadcrumbs">
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
     <a class="breadcrumb-item" href="index.html">Home</a>
-          </nav>
+      </nav>
     
-          <!--
-            Nested albums, if any
-          -->
-          <ul id="albums">
-    <li>
-              <a href="index-2010.html">
-                <ul class="grid clearfix"><li><img src="media/thumbs/2010/2010-04-02 14.24.53.jpg" /></li><li><img src="media/thumbs/2010/2010-04-06 17.40.13.jpg" /></li>            </ul>
-                <h3>2010</h3>
-                <div class="meta">
-                  2 albums, 17 photos<br />
-                  03 Apr 2010 - 29 Jul 2010
-                </div>
-              </a>
-            </li><li>
-              <a href="index-2011.html">
-                <ul class="grid clearfix"><li><img src="media/thumbs/2011/2011-05-06 10.40.18.jpg" /></li><li><img src="media/thumbs/2011/2011-05-09 16.55.29.jpg" /></li>            </ul>
-                <h3>2011</h3>
-                <div class="meta">
-                  2 albums, 17 photos<br />
-                  06 May 2011 - 30 Nov 2011
-                </div>
-              </a>
-            </li>      </ul>
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+    <a href="2015.html" style="background-image: url('media/large/photo-1416339684178-3a239570f3152.jpg')">
+            <div class="info">
+              <h3>2015</h3>
+              <div class="summary">3 albums, 37 photos</div>
+              <div class="date">03 Mar 2015 - 29 Dec 2015</div>
+            </div>
+          </a><a href="2016.html" style="background-image: url('media/large/photo-1428940253195-53483a1de2e6.jpg')">
+            <div class="info">
+              <h3>2016</h3>
+              <div class="summary">3 albums, 33 photos</div>
+              <div class="date">02 Jan 2016 - 29 Sep 2016</div>
+            </div>
+          </a>  </div>
     
-          <!--
-            All photos and videos
-          -->
-          <ul id="media">
-          </ul>
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+      </ul>
     
-        </section>
-    
-      </div>
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>All images courtesy of their author and <a href="https://unsplash.com">unsplash.com</a>, an amazing collection of FREE high-res photos.</p>
+      </footer>
     
     </div>
 

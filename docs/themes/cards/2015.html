@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo album - 2015</title>
+      <link rel="stylesheet" href="public/reset.css" />
+      <link rel="stylesheet" href="public/style.css" />
+      <link rel="stylesheet" href="public/viewer.css" />
+      <link rel="stylesheet" href="public/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="public/light-gallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/video-js.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Photo album</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="2015.html">2015</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+    <a href="2015-2015March.html" style="background-image: url('media/large/photo-1429216967620-ece20ff3a5f92.jpg')">
+            <div class="info">
+              <h3>2015 March</h3>
+              <div class="summary">13 photos</div>
+              <div class="date">03 Mar 2015 - 31 Mar 2015</div>
+            </div>
+          </a><a href="2015-2015July.html" style="background-image: url('media/large/photo-1416339684178-3a239570f3152.jpg')">
+            <div class="info">
+              <h3>2015 July</h3>
+              <div class="summary">14 photos</div>
+              <div class="date">03 Jul 2015 - 31 Jul 2015</div>
+            </div>
+          </a><a href="2015-2015December.html" style="background-image: url('media/large/photo-1463694372132-6c267f6ba5612.jpg')">
+            <div class="info">
+              <h3>2015 December</h3>
+              <div class="summary">10 photos</div>
+              <div class="date">01 Dec 2015 - 29 Dec 2015</div>
+            </div>
+          </a>  </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+      </ul>
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>All images courtesy of their author and <a href="https://unsplash.com">unsplash.com</a>, an amazing collection of FREE high-res photos.</p>
+      </footer>
+    
+    </div>
+
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/video.js"></script>
+    <!-- LightGallery -->
+    <script src="public/light-gallery/js/lightgallery.js"></script>
+    <script src="public/light-gallery/js/lg-autoplay.js"></script>
+    <script src="public/light-gallery/js/lg-pager.js"></script>
+    <script src="public/light-gallery/js/lg-thumbnail.js"></script>
+    <script src="public/light-gallery/js/lg-video.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+
+    </script>
+
+
+  </body>
+
+</html>

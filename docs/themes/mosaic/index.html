@@ -15,83 +15,69 @@
 
   <body>
 
-    <!-- <div id="wrapper">
-    <div id="container"> -->
+    <div id="content">
     
       <!--
-        Sidebar with album hierarchy
+        Gallery title
+      -->
+      <header style="color: #17baef;">
+        <h1><a href="index.html">Photo album</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
       -->
     
-      <div id="content">
-    
-        <!--
-          Gallery title
-        -->
-        <header style="color: #17baef;">
-          <h1>
-            <!-- <label for="hamburger" class="hamburger-label noselect" role="button">
-              <i class="fa fa-navicon"></i>
-            </label> -->
-            Photo album
-          </h1>
-        </header>
-    
-        <!--
-          Breadcrumbs of parent albums
-        -->
-    
-        <nav class="breadcrumbs">
-          <div class="mask"></div>
+      <nav class="breadcrumbs">
+        <div class="mask"></div>
     <a class="breadcrumb-item" href="index.html">Home</a>
-        </nav>
+      </nav>
+    
+      <!--
+        Main gallery panel
+      -->
+      <section id="content">
     
         <!--
-          Main gallery panel
+          Nested albums, if any
         -->
-        <section id="content">
-    
-          <!--
-            Nested albums, if any
-          -->
-          <ul id="albums">
+        <ul id="albums">
     <li>
-              <a href="index-2010.html">
-                <h3>2010</h3>
-                <div class="meta">
-                  <time>03 Apr 2010 - 29 Jul 2010</time>,
-                  <span class="summary">2 albums, 17 photos</span>
-                </div>
-                <!-- <div class="mosaic" style="opacity: 0.8">
-                  <img src="index-2010.png" />
-                </div> -->
-                <ul class="grid clearfix"><li><img src="media/thumbs/2010/2010-04-02 14.24.53.jpg" /></li><li><img src="media/thumbs/2010/2010-04-06 17.40.13.jpg" /></li><li><img src="media/thumbs/2010/2010-04-14 17.15.50.jpg" /></li><li><img src="media/thumbs/2010/2010-04-15 09.12.47.jpg" /></li><li><img src="media/thumbs/2010/2010-04-19 11.56.37.jpg" /></li><li><img src="media/thumbs/2010/2010-04-23 14.18.38.jpg" /></li><li><img src="media/thumbs/2010/2010-04-27 21.49.35.jpg" /></li><li><img src="media/thumbs/2010/2010-04-30 08.46.31.jpg" /></li>            </ul>
-              </a>
-            </li><li>
-              <a href="index-2011.html">
-                <h3>2011</h3>
-                <div class="meta">
-                  <time>06 May 2011 - 30 Nov 2011</time>,
-                  <span class="summary">2 albums, 17 photos</span>
-                </div>
-                <!-- <div class="mosaic" style="opacity: 0.8">
-                  <img src="index-2011.png" />
-                </div> -->
-                <ul class="grid clearfix"><li><img src="media/thumbs/2011/2011-05-06 10.40.18.jpg" /></li><li><img src="media/thumbs/2011/2011-05-09 16.55.29.jpg" /></li><li><img src="media/thumbs/2011/2011-05-14 09.38.11.jpg" /></li><li><img src="media/thumbs/2011/2011-05-16 09.30.06.jpg" /></li><li><img src="media/thumbs/2011/2011-05-18 13.14.48.jpg" /></li><li><img src="media/thumbs/2011/2011-05-22 17.04.08.jpg" /></li><li><img src="media/thumbs/2011/2011-05-25 13.47.33.jpg" /></li><li><img src="media/thumbs/2011/2011-05-28 11.09.49.jpg" /></li>            </ul>
-              </a>
-            </li>      </ul>
+            <a href="2015.html">
+              <h3>2015</h3>
+              <div class="meta">
+                <time>03 Mar 2015 - 29 Dec 2015</time><span class="separator">,</span>
+                <span class="summary">3 albums, 37 photos</span>
+              </div>
+              <ul class="grid clearfix"><li><img src="media/thumbs/photo-1416339684178-3a239570f3152.jpg" /></li><li><img src="media/thumbs/photo-1438029071396-1e831a7fa6d82.jpg" /></li><li><img src="media/thumbs/photo-1459204137123-238c569e22bd2.jpg" /></li><li><img src="media/thumbs/photo-1468838697998-313c769f67da2.jpg" /></li><li><img src="media/thumbs/photo-1472087982327-49192446ed6b2.jpg" /></li><li><img src="media/thumbs/photo-1477884958005-a0a3a5711d212.jpg" /></li><li><img src="media/thumbs/photo-1478042860560-8e37f14c93352.jpg" /></li><li><img src="media/thumbs/photo-1478145046317-39f10e56b5e92.jpg" /></li>          </ul>
+            </a>
+          </li><li>
+            <a href="2016.html">
+              <h3>2016</h3>
+              <div class="meta">
+                <time>02 Jan 2016 - 29 Sep 2016</time><span class="separator">,</span>
+                <span class="summary">3 albums, 33 photos</span>
+              </div>
+              <ul class="grid clearfix"><li><img src="media/thumbs/photo-1428940253195-53483a1de2e6.jpg" /></li><li><img src="media/thumbs/photo-1431794062232-2a99a5431c6c2.jpg" /></li><li><img src="media/thumbs/photo-1465126188505-4f04a0f23a4d2.jpg" /></li><li><img src="media/thumbs/photo-1466972618291-13e16a49f5aa2.jpg" /></li><li><img src="media/thumbs/photo-1467663906983-81383d4802ef2.jpg" /></li><li><img src="media/thumbs/photo-1471265004050-b3e8ff9c162e2.jpg" /></li><li><img src="media/thumbs/photo-1472634511615-7ce0fcc2c100.jpg" /></li><li><img src="media/thumbs/photo-1478100006428-308e7720aa2f2.jpg" /></li>          </ul>
+            </a>
+          </li>    </ul>
     
-          <!--
-            All photos and videos
-          -->
-          <ul id="media">
-          </ul>
+        <!--
+          All photos and videos
+        -->
+        <ul id="media">
+        </ul>
     
-        </section>
+      </section>
     
-      </div>
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>All images courtesy of their author and <a href="https://unsplash.com">unsplash.com</a>, an amazing collection of FREE high-res photos.</p>
+      </footer>
     
-    <!-- </div>
-    </div> -->
+    </div>
 
     <!-- Video loader -->
     <div id="videos">
