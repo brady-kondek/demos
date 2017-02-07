@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo album - 2015</title>
+      <link rel="stylesheet" href="../public/reset.css" />
+      <link rel="stylesheet" href="../public/style.css" />
+      <link rel="stylesheet" href="../public/viewer.css" />
+      <link rel="stylesheet" href="../public/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="../public/light-gallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="../public/video-js.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <a href="../index.html">
+        <h1>Photo album</h1>
+        <h2></h2>
+      </a>
+    </header>
+    
+      <nav>
+            <li class="active">
+            <!-- This album -->
+            <a href="2015.html">2015</a>
+            <!-- And nested album -->
+          </li>
+            <li>
+            <!-- This album -->
+            <a href="2015-March.html">March</a>
+            <!-- And nested album -->
+          </li>
+          
+            <li>
+            <!-- This album -->
+            <a href="2015-July.html">July</a>
+            <!-- And nested album -->
+          </li>
+          
+            <li>
+            <!-- This album -->
+            <a href="2015-December.html">December</a>
+            <!-- And nested album -->
+          </li>
+          
+          
+            <li>
+            <!-- This album -->
+            <a href="2016.html">2016</a>
+            <!-- And nested album -->
+          </li>
+            <li>
+            <!-- This album -->
+            <a href="2016-January.html">January</a>
+            <!-- And nested album -->
+          </li>
+          
+            <li>
+            <!-- This album -->
+            <a href="2016-July.html">July</a>
+            <!-- And nested album -->
+          </li>
+          
+            <li>
+            <!-- This album -->
+            <a href="2016-September.html">September</a>
+            <!-- And nested album -->
+          </li>
+          
+          
+      </nav>
+    
+    <ul id="galleries">
+     <li>
+       <a href="2015-March.html">
+         <h3>March</h3>
+         <div class="meta">
+           13 photos<br />
+           03 Mar 2015 - 31 Mar 2015
+         </div>
+         <ul class="grid"><li><img src="../media/thumbs/photo-1473603477862-9d352d4615e12.jpg" /></li><li><img src="../media/thumbs/photo-1431578409060-9aad91ba5f792.jpg" /></li><li><img src="../media/thumbs/photo-1463946377180-f5185c2783e52.jpg" /></li><li><img src="../media/thumbs/photo-1467307983825-619715426c702.jpg" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="2015-July.html">
+         <h3>July</h3>
+         <div class="meta">
+           14 photos<br />
+           03 Jul 2015 - 31 Jul 2015
+         </div>
+         <ul class="grid"><li><img src="../media/thumbs/photo-1472087982327-49192446ed6b2.jpg" /></li><li><img src="../media/thumbs/photo-1478827387698-1527781a48872.jpg" /></li><li><img src="../media/thumbs/photo-1485488448524-23e9ea0a94cd.jpg" /></li><li><img src="../media/thumbs/photo-1477884958005-a0a3a5711d212.jpg" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="2015-December.html">
+         <h3>December</h3>
+         <div class="meta">
+           10 photos<br />
+           01 Dec 2015 - 29 Dec 2015
+         </div>
+         <ul class="grid"><li><img src="../media/thumbs/photo-1477595458614-abcdd81ff9132.jpg" /></li><li><img src="../media/thumbs/photo-1477996874447-11801632777a2.jpg" /></li><li><img src="../media/thumbs/photo-1478391679764-b2d8b3cd1e942.jpg" /></li><li><img src="../media/thumbs/photo-1479741044197-d28c298f8c772.jpg" /></li>     </ul>
+       </a>
+     </li>
+    </ul>
+    
+    <ul id="media">
+    </ul>
+    
+    <!--
+      Optional footer
+    -->
+    <footer>
+      <p>All images courtesy of their author and <a href="https://unsplash.com">unsplash.com</a>, an amazing collection of FREE high-res photos.</p>
+    </footer>
+
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="../public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="../public/video.js"></script>
+    <!-- LightGallery -->
+    <script src="../public/light-gallery/js/lightgallery.js"></script>
+    <script src="../public/light-gallery/js/lg-autoplay.js"></script>
+    <script src="../public/light-gallery/js/lg-pager.js"></script>
+    <script src="../public/light-gallery/js/lg-thumbnail.js"></script>
+    <script src="../public/light-gallery/js/lg-video.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+
+    </script>
+
+
+  </body>
+
+</html>

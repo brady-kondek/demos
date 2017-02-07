@@ -16,6 +16,7 @@ function make_gallery {
   rm -rf docs/themes/${theme}
   mkdir -p docs/themes/${theme}
   mv docs/public docs/themes/${theme}/
+  mv docs/albums docs/themes/${theme}/ 2>/dev/null || true
   find docs -depth 1 \( -name *.html -or -name *.png \) -exec mv {} docs/themes/${theme}/ \;
   # create symlinks
   pushd docs/themes/${theme} > /dev/null

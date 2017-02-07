@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo album - 2016</title>
+      <link rel="stylesheet" href="../public/reset.css" />
+      <link rel="stylesheet" href="../public/style.css" />
+      <link rel="stylesheet" href="../public/viewer.css" />
+      <link rel="stylesheet" href="../public/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="../public/light-gallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="../public/video-js.css" />
+  </head>
+
+  <body>
+
+    <div id="content">
+    
+      <!--
+        Gallery title
+      -->
+      <header style="color: #17baef;">
+        <h1><a href="../index.html">Photo album</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+    
+      <nav class="breadcrumbs">
+        <div class="mask"></div>
+    <a class="breadcrumb-item" href="../index.html">Home</a>
+          <span class="separator">&gt;</span><a class="breadcrumb-item" href="2016.html">2016</a>
+      </nav>
+    
+      <!--
+        Main gallery panel
+      -->
+      <section id="content">
+    
+        <!--
+          Nested albums, if any
+        -->
+        <ul id="albums">
+    <li>
+            <a href="2016-January.html">
+              <h3>January</h3>
+              <div class="meta">
+                <time>02 Jan 2016 - 29 Jan 2016</time><span class="separator">,</span>
+                <span class="summary">10 photos</span>
+              </div>
+              <ul class="grid clearfix"><li><img src="../media/thumbs/photo-1470338745628-171cf53de3a82.jpg" /></li><li><img src="../media/thumbs/photo-1478828394896-994a008739df2.jpg" /></li><li><img src="../media/thumbs/photo-1484199383121-dfa3c30608cd.jpg" /></li><li><img src="../media/thumbs/photo-1452360846435-d9c4fc4c94c52.jpg" /></li><li><img src="../media/thumbs/photo-1479186479563-2af7090284c62.jpg" /></li><li><img src="../media/thumbs/photo-1478815716600-15f0c3eb8e4b2.jpg" /></li><li><img src="../media/thumbs/photo-1474496517593-015d8b59450d2.jpg" /></li><li><img src="../media/thumbs/photo-1482398650355-d4c6462afa0e.jpg" /></li>          </ul>
+            </a>
+          </li><li>
+            <a href="2016-July.html">
+              <h3>July</h3>
+              <div class="meta">
+                <time>03 Jul 2016 - 31 Jul 2016</time><span class="separator">,</span>
+                <span class="summary">11 photos</span>
+              </div>
+              <ul class="grid clearfix"><li><img src="../media/thumbs/photo-1476344988293-1d5501af75a62.jpg" /></li><li><img src="../media/thumbs/photo-1478043088250-441f196f77942.jpg" /></li><li><img src="../media/thumbs/photo-1485445819768-6d2d841cd262.jpg" /></li><li><img src="../media/thumbs/photo-1441886367417-1c946b32a9802.jpg" /></li><li><img src="../media/thumbs/photo-1478689373814-b2f9a1150a4c2.jpg" /></li><li><img src="../media/thumbs/photo-1454442124827-b7de573f10e02.jpg" /></li><li><img src="../media/thumbs/photo-1477288309209-a14ce05a641e2.jpg" /></li><li><img src="../media/thumbs/photo-1458063048042-fa854e05b7452.jpg" /></li>          </ul>
+            </a>
+          </li><li>
+            <a href="2016-September.html">
+              <h3>September</h3>
+              <div class="meta">
+                <time>03 Sep 2016 - 29 Sep 2016</time><span class="separator">,</span>
+                <span class="summary">12 photos</span>
+              </div>
+              <ul class="grid clearfix"><li><img src="../media/thumbs/photo-1465126188505-4f04a0f23a4d2.jpg" /></li><li><img src="../media/thumbs/photo-1479158256644-35ed63316f5c2.jpg" /></li><li><img src="../media/thumbs/photo-1428940253195-53483a1de2e6.jpg" /></li><li><img src="../media/thumbs/photo-1467663906983-81383d4802ef2.jpg" /></li><li><img src="../media/thumbs/photo-1466972618291-13e16a49f5aa2.jpg" /></li><li><img src="../media/thumbs/photo-1471265004050-b3e8ff9c162e2.jpg" /></li><li><img src="../media/thumbs/photo-1478100006428-308e7720aa2f2.jpg" /></li><li><img src="../media/thumbs/photo-1478424255087-62cc740054862.jpg" /></li>          </ul>
+            </a>
+          </li>    </ul>
+    
+        <!--
+          All photos and videos
+        -->
+        <ul id="media">
+        </ul>
+    
+      </section>
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>All images courtesy of their author and <a href="https://unsplash.com">unsplash.com</a>, an amazing collection of FREE high-res photos.</p>
+      </footer>
+    
+    </div>
+
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="../public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="../public/video.js"></script>
+    <!-- LightGallery -->
+    <script src="../public/light-gallery/js/lightgallery.js"></script>
+    <script src="../public/light-gallery/js/lg-autoplay.js"></script>
+    <script src="../public/light-gallery/js/lg-pager.js"></script>
+    <script src="../public/light-gallery/js/lg-thumbnail.js"></script>
+    <script src="../public/light-gallery/js/lg-video.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+
+    </script>
+
+
+  </body>
+
+</html>

@@ -1,6 +1,7 @@
 {
   "input": "source",
   "output": "docs",
+  "albums-output-folder": "albums",
   "title": "Photo album",
   "thumb-size": 120,
   "large-size": 400,
@@ -9,7 +10,7 @@
   "sort-albums-by": "start-date",
   "sort-media-by": "date",
   "albums-from": "date",
-  "albums-date-format": "YYYY/YYYY MMMM",
+  "albums-date-format": "YYYY/MMMM",
   "theme": "cards",
   "footer": "All images courtesy of their author and <a href=\"https://unsplash.com\">unsplash.com</a>, an amazing collection of FREE high-res photos."
 }
